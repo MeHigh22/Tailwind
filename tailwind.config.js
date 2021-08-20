@@ -3,9 +3,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     debugScreens: {
-position: ['top', 'left'],
+    position: ['top', 'left'],
 },
-    extend: {},
+    extend: {
+      fontFamily: {
+      headline: ['Rampart One']
+}
+
+    }
   },
   variants: {
     extend: {},

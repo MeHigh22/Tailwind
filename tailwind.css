@@ -4,13 +4,17 @@
 
 /* Presets / Checker les Global Styles */
 @layer base {
+    @font-face {
+    font-family: Rampart One;
+    src: url(/dist/fonts/RampartOne-Regular.ttf) format("truetype");
+    }
     h1 {
-    @apply mb-8 text-5xl;
+    @apply mb-8 text-4xl font-headline;
     }
     h2 {
-    @apply mb-3 text-2xl;
+    @apply mb-3 text-3xl font-headline;
     }
     h3 {
-    @apply  mb-2 text-1xl;
+    @apply  mb-2 text-2xl font-headline;
     }
-    }
+}

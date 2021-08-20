@@ -563,17 +563,29 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
+@font-face {
+  font-family: Rampart One;
+
+  src: url(/dist/fonts/RampartOne-Regular.ttf) format("truetype");
+}
+
 h1 {
+  margin-bottom: 2rem;
+  font-family: Rampart One;
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 
 h2 {
+  margin-bottom: 0.75rem;
+  font-family: Rampart One;
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
 h3 {
+  margin-bottom: 0.5rem;
+  font-family: Rampart One;
   font-size: 1.5rem;
   line-height: 2rem;
 }
@@ -22403,6 +22415,10 @@ h3 {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-headline {
+  font-family: Rampart One;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -31926,6 +31942,8 @@ h3 {
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* Presets / Checker les Global Styles */
 
 @media (min-width: 640px) {
   .sm\:container {
@@ -53640,6 +53658,10 @@ h3 {
 
   .sm\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-headline {
+    font-family: Rampart One;
   }
 
   .sm\:text-xs {
@@ -84869,6 +84891,10 @@ h3 {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-headline {
+    font-family: Rampart One;
+  }
+
   .md\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -116094,6 +116120,10 @@ h3 {
 
   .lg\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-headline {
+    font-family: Rampart One;
   }
 
   .lg\:text-xs {
@@ -147323,6 +147353,10 @@ h3 {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-headline {
+    font-family: Rampart One;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -178548,6 +178582,10 @@ h3 {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-headline {
+    font-family: Rampart One;
   }
 
   .\32xl\:text-xs {
